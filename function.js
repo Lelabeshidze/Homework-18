@@ -14,7 +14,7 @@ function startTime() {
      }
     
     document.querySelector(".clock").innerHTML = h + ":" + m + ":" + s + " "+ session;
-    var t = setTimeout(function(){ startTime() }, 500);
+    const t = setTimeout(function(){ startTime() }, 500);
   }
   
   
