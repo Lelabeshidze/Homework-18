@@ -20,7 +20,7 @@ function startTime() {
   
   startTime()
 
-//   დავალევა2
+//   დავალევა2-3
 
   let slideIndex = 1;
   let millis = 1000;
