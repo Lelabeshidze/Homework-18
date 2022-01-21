@@ -81,3 +81,23 @@ function startTime() {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
   }
+
+  // დავალება4
+  let k=4;
+  const students = [-1, -3, 4, 2,6,0,-5];
+  let activeStudents = [];
+  function angryProfessor(k, students){
+    students.forEach(item => {
+      if(item< 1){
+        return activeStudents++
+      }
+    });
+    if(activeStudents.length<k){
+      return "YES";
+    }else{
+      return "NO";
+    }
+  };
+  console.log(angryProfessor(k, students))
+  console.log("activeStudents: " + activeStudents);
+  
